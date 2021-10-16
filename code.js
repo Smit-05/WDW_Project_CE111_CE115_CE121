@@ -1,9 +1,13 @@
 const express = require("express");
 const ytdl = require("ytdl-core");
 const app = express();
+const path = require('path')
 
 app.use(express.json());
 app.use(express.static("public"));
+app.use('/css', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/css')))
+app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')))
+app.use('/js', express.static(path.join(__dirname, 'node_modules/jquery/dist')))
 
 app.get("/",function(request,response){
     response.sendFile(__dirname + "public/index.html");

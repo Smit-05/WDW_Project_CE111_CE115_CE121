@@ -1,0 +1,88 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+.jumbotron {
+    background-color:#F3F6FB;
+    padding:20px;
+}
+input[type=text] {
+    width:80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+button {
+    background-color: #D0EDF5;
+    color:#151B27;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+.form {
+    border-radius: 5px;
+    background-color: #F5EEE4;
+    padding: 20px;
+    margin-top:-30px;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    font-size:18px;
+}
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.form-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, button {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+.video-data {
+    width:400px;
+    padding:30px;
+    margin: 60px auto;
+    display: none;
+    background-color:#F3F6FB;
+}
+.video-data .data .thumbnail img {
+    width:100%;
+}
+.video-data .data .info h2 {
+    font-size:20px;
+    margin-bottom: 10px;
+    color: #151B27;
+}
+.video-data .data .info p {
+    font-size:15px;
+    color: #555;
+}
+.video-data .controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+i {
+    font-size:50px;
+    padding-top:25px;
+}
+.row{
+    background-color:#D0EDF5;
+    margin-top:10px;
+    color: #151B27;
+}

@@ -1,7 +1,7 @@
 {
-  "name": "Project",
+  "name": "project",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Definition YouTube downloader is a project based on Bootstrap5, CSS and JavaScript. It allows user to download You Tube video based on the quality provided in the You Tube. User can select the desired quality of video and can download it with the help of URL of the video.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "express": "^4.17.1",
+    "jquery": "^3.6.0",
     "ytdl-core": "^4.9.1"
   }
 }
