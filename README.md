@@ -3,12 +3,12 @@
 ## Definition
 YouTube downloader is a project based on Bootstrap5, CSS and JavaScript. It allows user to download You Tube video based on the quality provided in the You Tube. User can select the desired quality of video and can download it with the help of URL of the video. 
 
-## How to run this project
+<!-- ## How to run this project
 1.
 2.
 3.
 4.
-5.
+5. -->
 
 
 ## Created By
