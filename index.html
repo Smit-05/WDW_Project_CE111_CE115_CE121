@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Y2 Downloader</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./photos/Downloader.png" alt="" width="35%" height="40%">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+        <ul class="nav nav-pills">
+          <li class="nav-item" style="background-color: black; border-radius: 5px;"><a href="#" class="nav-link"
+              style="color: white;" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+          <!-- <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li> -->
+          <li class="nav-item"><a href="#accordionFlushExample" class="nav-link">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="middle">
+    <center>
+      <h1>
+        <div class="header"><span style="color: red;">YouTube </span> Video Downloader
+      </h1>
+      <p style="font-size: 15px;">Download and Save Youtube Videos for Free</p>
+    </center>
+
+    <div class="form">
+      <div class="form-row">
+        <div class="col-3">
+          <!-- <label for="videoURL">Enter Youtube Video Link</label> -->
+        </div>
+        <div class="col-6">
+          <center>
+            <input type="text" id="videoURL" name="videoURL"
+              placeholder="Video URL e.g. https://www.youtube.com/watch?v=MtN1YnoL46Q">
+        </div>
+        </center>
+        <div class="col-3">
+          <button id="get-video-info-btn" type="button" class="btn btn-info">Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="video-data container" style="width: 60%;">
+    <div class="data">
+      <div class="thumbnail">
+        <img>
+      </div>
+      <div class="info">
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, delectus!</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus suscipit ducimus
+          explicabo recusandae? Ad tenetur ipsum quasi perspiciatis non.
+        </p>
+      </div>
+    </div>
+    <div class="controls">
+      <input type="hidden" id="video-url">
+      <select id="download-option" class="form-select"></select>
+      <button id="download-btn" type="button" class="btn btn-danger">Download</button>
+    </div>
+  </div>
+  <br><br>
+
+  <div class="supported_platform">
+    <center>
+      <h2><span style="color:red;">Y2 YouTube</span> Downloader</h2>
+      <p>Y2 Downloader is the best and most convenient service used to download music and videos from YouTube! For more
+        convenient viewing on a large screen video can be saved in high quality. To watch videos on Android or iOS
+        phones the medium quality will be enough.
+      </p>
+      <h5>Supported Platforms:</h5>
+    
+      <div class="row justify-content-center">
+        <div class="col-6 col-sm-2 p-4 text-center">
+          <img src="./photos/windows-platform-logo.png" alt="" width="120" height="120">
+        </div>
+        <div class="col-6 col-sm-2 p-4 text-center">
+          <img src="./photos/apple-brands.svg" alt="" width="120" height="120">
+        </div>
+        <div class="col-6 col-sm-2 p-4 text-center">
+          <img src="./photos/linux-brands.svg" alt="" width="120" height="120">
+        </div>
+        <div class="col-6 col-sm-2 p-4 ">
+          <img src="./photos/android-logo.png" alt="" width="120" height="120">
+        </div>
+      </div>
+    </center>
+  </div>
+  <br><br>
+
+  <div class="row" id="features">
+    <div class="heading">
+      <h2>Free <span style="color:red;">YouTube </span> Video Downloader</h2>
+      <p>To be able to watch videos offline you might want to download them on your PC, tablet or cell phone. The
+        service allows you to save and download videos in the desired formats to any devices for later playback without
+        need to access the Internet. </p>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div class="card text-center" style="width: 20rem; border-radius: 20px;">
+        <div class="card-body ">
+          <img src="./photos/yt-1.png" alt="" width="120" height="120">
+
+          <h5 class="card-title">Fast and Easy to Use</h5>
+          <p class="card-text">To download YouTube videos quickly and for free in MP3 or MP4, you just need to copy
+            the URL and insert it into the Y2Mate search string and click Convert. Registration on the site is not
+            required.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col d-flex justify-content-center">
+      <div class="card text-center" style="width: 20rem; border-radius: 20px;">
+        <div class="card-body ">
+          <img src="./photos/yt-2.png" alt="" width="120" height="120">
+
+          <h5 class="card-title">Download Videos Online!</h5>
+          <p class="card-text">Downloading video and audio to your gadgets does not require installation. You just need
+            to visit our website, which provides YouTube video download opportunities absolutely free of charge.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col d-flex justify-content-center">
+      <div class="card text-center" style="width: 20rem; border-radius: 20px;">
+        <div class="card-body ">
+          <img src="./photos/yt-3.png" alt="" width="120" height="120">
+
+          <h5 class="card-title">All Modern Platforms Supported</h5>
+          <p class="card-text">Our service works on all modern platforms. The ease of converting video files to audio
+            does not depend on whether you use Android/iOS-based phones or any other Windows, Mac, or Linux devices.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+
+  <div class="process">
+    <div class="heading" style="background-color: white; color: black;">
+      <h3><span style="color:red;"> How to Download YouTube Videos ? </span></h3>
+    </div>
+    <div class="row">
+      <div class="col-md-3 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img src="./photos/step1.png" class="card-img-top" height="100%" width="100%" alt="...">
+          <div class="card-body">
+            <p class="card-text">Copy URL From YouTube</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img src="./photos/step2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Paste URL in the search field and click “Search.”</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img src="./photos/step3.png" height="100%" width="100%" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Click the “Download” button to convert YouTube video in MP4</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img src="./photos/step4.png" class="card-img-top" width="100%" height="100%" alt="...">
+          <div class="card-body">
+            <p class="card-text">Click the “Download” button to start downloading the file.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+<div class="FAQ">
+  <center><h2>FAQs</h2></center>
+</div>
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          How To Download YouTube Video to a Computer ?
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Using Y2Mate downloader makes it easy to save any video to your PC or mobile device.
+          It takes just several simple steps:
+          <ul>
+            <li>Copy the URL of the video you want to download;</li>
+            <li>Insert the link into a line on on this page;</li>
+            <li> Click the Download button.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Is the YouTube Video Downloader Free ?
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Yes, the service is absolutely free. The time and number of downloads are unlimited.
+        </div>
+      </div>
+    </div>
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Which Video quality is Supported By Y2 Downloader ?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          The quality of the downloaded video depends entirely on the source. The most common are SD, HD, FullHD, 2K &
+          4K.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Where do the downloaded files get saved? 
+        </button>
+      </h2>
+      <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Files you've download are automatically saved in the downloads folder Or the download history section on your device.
+        </div>
+      </div>
+    </div>
+    
+</div>
+
+<br><br><br>
+<div class="footer-bottom">
+  <center>Copyright © 2021 Y2 Downloader  ||  All rights Reserved</center>
+  </div>
+</div>
+  
+
+
+  <!-- -------------------------------------------------------------------------------------------------------------- -->
+  <script type="text/javascript">
+    const host = "http://localhost:5000/";
+    document.querySelector("#get-video-info-btn").addEventListener("click", function () {
+      let videoURL = document.querySelector("#videoURL").value.trim();
+      if (videoURL.length == 0) {
+        alert("Please enter youtube video link");
+        return;
+      }
+      fetch(host + "videoInfo?videoURL=" + videoURL).then(function (response) {
+        return response.json();
+      }).then(function (data) {
+        console.log(data);
+        let detailsNodes = {
+          thumbnail: document.querySelector(".video-data .thumbnail img"),
+          title: document.querySelector(".video-data .info h2"),
+          description: document.querySelector(".video-data .info p"),
+          videoURL: document.querySelector(".video-data .controls #video-url"),
+          downloadOptions: document.querySelector(".video-data .controls #download-option")
+        }
+
+        let html = "";
+        for (let i = 0; i < data.formats.length; i++) {
+          if (data.formats[i].container != "mp4") {
+            continue;
+          }
+          html += `
+                        <option value="${data.formats[i].itag}">
+                            ${data.formats[i].container} ~ ${data.formats[i].qualityLabel} 
+                        </option>
+                    `;
+          detailsNodes.thumbnail.src = data.videoDetails.thumbnails[data.videoDetails.thumbnails.length - 1].url;
+          detailsNodes.title.innerText = data.videoDetails.title;
+          detailsNodes.description.innerText = data.videoDetails.description;
+
+          detailsNodes.videoURL.value = videoURL;
+          detailsNodes.downloadOptions.innerHTML = html;
+
+          document.querySelector(".video-data").style.display = "block";
+          document.querySelector(".video-data").scrollIntoView({
+            behavior: "smooth"
+          });
+        }
+
+      }).catch(function (error) {
+        alert("Something went wrong!");
+      })
+    });
+
+    document.querySelector("#download-btn").addEventListener("click", function () {
+      let videoURL = document.querySelector("#video-url").value;
+      let itag = document.querySelector("#download-option").value;
+      window.open(host + "download?videoURL=" + videoURL + "&itag=" + itag);
+    });
+  </script>
+</body>
+
+</html>
