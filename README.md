@@ -3,13 +3,6 @@
 ## Definition
 YouTube downloader is a project based on Bootstrap5, CSS and JavaScript. It allows user to download You Tube video based on the quality provided in the You Tube. User can select the desired quality of video and can download it with the help of URL of the video. 
 
-## How to run this project
-1. Download zip file from GitHub and extract it.
-2. Diwnload node modules via terminal.
-3. Now, type **Node code.js** in terminal.
-4. Open browser and type **localhost:5000/** in searchbar.
-5. Now, project is ready to use.
-
 ## Command for download node modules
 npm init -y
 
