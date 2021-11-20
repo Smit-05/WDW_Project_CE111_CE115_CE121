@@ -1,5 +1,15 @@
+:root{
+    --primary : #FF0000;
+    --secondary : #282828;
+}
+::selection {
+    color: white;
+    background: #282828;
+  }
+
 body {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    overflow-x: hidden;
 }
 .jumbotron {
     background-color:#F3F6FB;
@@ -27,17 +37,16 @@ button {
 }
 .form {
     border-radius: 5px;
-    background-color: #F5EEE4;
-    padding: 20px;
-    margin-top:-30px;
+    /* background-color: #F5EEE4; */
+    padding: 30px;
 }
-.col-25 {
+.col-3 {
     float: left;
     width: 25%;
     margin-top: 6px;
     font-size:18px;
 }
-.col-75 {
+.col-6 {
     float: left;
     width: 75%;
     margin-top: 6px;
@@ -54,14 +63,15 @@ button {
     }
 }
 .video-data {
-    width:400px;
+    width: 400px;
     padding:30px;
     margin: 60px auto;
     display: none;
-    background-color:#F3F6FB;
+    background-color:var(--secondary);
+    color: white;
 }
 .video-data .data .thumbnail img {
-    width:100%;
+    width: 100%;
 }
 .video-data .data .info h2 {
     font-size:20px;
@@ -70,7 +80,8 @@ button {
 }
 .video-data .data .info p {
     font-size:15px;
-    color: #555;
+    color: white;
+    font-family: 'Varela Round', sans-serif; ;
 }
 .video-data .controls {
     margin-top: 20px;
@@ -85,4 +96,115 @@ i {
     background-color:#D0EDF5;
     margin-top:10px;
     color: #151B27;
+}
+.navbar{
+    background-color:white;
+    font-family: 'Varela Round', sans-serif;
+}
+.navbar .nav-pills .nav-item  .nav-link{
+    color: black;
+
+}
+.navbar .navbar-brand{
+    padding: 25px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+ul{
+    color: #90a822;
+}
+#get-video-info-btn{
+ background-color: var(--primary);
+ color: black;
+ border-radius: 5px;
+ border-color: red;
+ height: 50px;
+ width: 140px;
+}
+#get-video-info-btn:hover{
+    background-color: transparent;
+    color:white;
+    border-color:white;
+}
+
+#videoURL{
+    background-color: #f2f2f2;
+    color: black;
+    border-radius: 5px;
+}
+.icon{
+    padding: 15px;
+}
+.middle{
+    background-color: var(--secondary);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    padding: 20px;
+    height: 18rem;
+}
+.supported_platform{
+    padding: 10px;
+    margin-left: 7px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+.justify-content-center{
+    background-color: white;
+
+}
+
+.col{
+    background-color: var(--secondary);
+    padding: 60px;
+    display: inline;
+    font-family: 'Varela Round', sans-serif;
+}
+.text{
+    color: white;
+}
+.heading{
+    background-color: var(--secondary);
+    color: white;
+    text-align: center;
+    font-family:'Varela Round', sans-serif;
+    padding-top: 25px;
+    font-weight: lighter;
+}
+p{
+    padding: 20px;
+}
+.col-md-3{
+    padding: 30px;
+    padding-left: 20px;
+}
+.accordion{
+    width: 70%;
+    margin-left: 15%;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+.accordion .accordion-button{
+    background-color:var(--secondary) ;
+    color: white;
+}
+.footer-bottom{
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    background-color: var(--secondary);
+    margin-top: 12%;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+.FAQ{
+    font-family:'Varela Round', sans-serif ;
+    color: red;
+    padding: 7px;
 }
