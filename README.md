@@ -5,6 +5,7 @@ YouTube downloader is a project based on Bootstrap5, CSS and JavaScript. It allo
   <a href="#"><img src="https://img.shields.io/github/stars/Smit-05/WDW_Project_CE111_CE115_CE121" alt="Stars"/></a>
   <a href="#"><img src="https://img.shields.io/github/forks/Smit-05/WDW_Project_CE111_CE115_CE121" alt="Forks"/></a>
 </div>
+
 ## Technologies Used
 <p>
     <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"></a>
