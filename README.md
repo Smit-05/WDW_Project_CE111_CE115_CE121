@@ -1,8 +1,10 @@
 # Y2 Downloader
-
-## Definition
 YouTube downloader is a project based on Bootstrap5, CSS and JavaScript. It allows user to download YouTube video based on the quality provided in the YouTube. User can select the desired quality of video and can download it with the help of URL of the video. 
-
+<div align="center">
+  <a href="#"><img src="https://sloc.xyz/github/Smit-05/WDW_Project_CE111_CE115_CE121" alt="Total Lines"/></a>
+  <a href="#"><img src="https://img.shields.io/github/stars/Smit-05/WDW_Project_CE111_CE115_CE121" alt="Stars"/></a>
+  <a href="#"><img src="https://img.shields.io/github/forks/Smit-05/WDW_Project_CE111_CE115_CE121" alt="Forks"/></a>
+</div>
 ## Technologies Used
 <p>
     <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"></a>
